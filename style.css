@@ -12,3 +12,7 @@ Text Domain: nina
 
 GitHub Theme URI: ortimis/nina-theme
 */
+
+.lines {
+    display: none;
+}
