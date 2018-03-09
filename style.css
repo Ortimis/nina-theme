@@ -32,8 +32,28 @@ GitHub Theme URI: ortimis/nina-theme
         margin: 0;
         padding: 5px 20px 5px 32px;
     }
+
+    .main-navigation ul ul ul {
+        width: 300px;
+    }
+
 }
 
 .sub-menu {
     box-shadow: 2px 4px 5px -1px rgba(0,0,0,0.2);
+}
+
+input[type="text"]:hover, input[type="email"]:hover, input[type="url"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="number"]:hover, input[type="tel"]:hover, input[type="range"]:hover, input[type="date"]:hover, input[type="month"]:hover, input[type="week"]:hover, input[type="time"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="color"]:hover, textarea:hover, select:hover, body .tb-close-icon:hover, body .tb-close-icon:focus, .widget input[type="text"]:hover, .widget input[type="email"]:hover, .widget input[type="tel"]:hover, .widget input[type="password"]:hover, .widget input[type="url"]:hover, .widget input[type="search"]:hover, .widget select:hover, .widget textarea:hover, body #infinite-handle span button:hover, body #infinite-handle span button:focus {
+    border-color: #000 !important;
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"], input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"], textarea, select, .header-image, .no-results input[type="search"], .error-404 input[type="search"], .no-results input[type="search"]:focus, .error-404 input[type="search"]:focus, .has-sidebar .content-area, .layout-magazine article:after, .layout-newspaper .masonry article, .related-holder + .comment-holder > *:first-child, .comment-content table, .entry-content table, .comment-content th, .entry-content th, .comment-content td, .entry-content td, .widget_calendar tbody, .widget_recent_comments li:not(:last-child), .widget_recent_entries li:not(:last-child), .widget_jetpack_display_posts_widget .jetpack-display-remote-posts h4:not(:first-of-type), body .jp-carousel-light #carousel-reblog-box input#carousel-reblog-submit, body #jp-carousel-comment-form-button-submit, #eu-cookie-law input[type="submit"], body #infinite-handle span button, .featured-category-wrap .featured-category article:not(:last-child), div#respond .form-submit input, div#respond .form-submit input#comment-submit, div#respond .comment-form-fields input[type=submit], div#respond p.form-submit input[type=submit], div#respond input[type=submit], div#commentform #submit, .widget .accent-box, .entry-author, div.sharedaddy .sd-social h3.sd-title, body #eu-cookie-law {
+    border-color: rgba(0,0,0,0.8) !important;
+
+}
+
+.contact-form label span {
+    color: rgba(0,0,0,0.7) !important;
+    margin-left: 4px;
+    font-weight: normal;
 }

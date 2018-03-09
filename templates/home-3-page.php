@@ -57,7 +57,7 @@ get_header(); ?>
 						</div>
 
 						<div class="grid-sizer col-lg-3 col-md-4 col-sm-6"></div>
-						lolol
+						
 						<?php
 						/* Start the Loop */
 						while ( have_posts() ) : the_post();
