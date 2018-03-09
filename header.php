@@ -64,6 +64,7 @@
 					<div id="social_menu_trigger" class="social-menu-trigger">
 						<a href="http://facebook.com/ninasvoxbox" target="_blank" class="genericon genericon-facebook"></a>
 						<a href="http://instagram.com/ninasvoxbox" target="_blank" class="genericon genericon-instagram"></a>
+						<a href="https://www.youtube.com/channel/UCZONJ5DQIJoicm4vrlfp6Cw/" target="_blank" class="genericon genericon-youtube"></a>
 						<!-- <button>
 							<?php esc_html_e( 'Follow', 'reinform' ); ?>
 						</button> -->
