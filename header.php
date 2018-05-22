@@ -163,7 +163,7 @@
 	<div id="content" class="site-content container">
 
 		<div class="cookie-info">
-			<p>NEUE MASCHE verwendet Cookies und Pixel, um Nutzern den bestmöglichen Service zu gewährleisten. Wenn Sie auf der Seite weitersurfen, stimmen Sie der Cookie-Nutzung zu:
+			<p>Ich stimme der Verwendung von Cookies zu.
 			<a class="dismiss-cookie-notification" href="#">OK</a>. Weitere Infos finden Sie <a href="<?php echo home_url(); ?>/datenschutzerklaerung">hier</a>.
 			<a class="dismiss-cookie-notification" href="#">&#10006;</a></p>
 		</div>
