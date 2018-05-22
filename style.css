@@ -57,3 +57,33 @@ button, input[type="button"], input[type="reset"], input[type="submit"], input[t
     margin-left: 4px;
     font-weight: normal;
 }
+
+.cookie-info {
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #00ABBD;
+	text-align: center;
+	padding: 10px 0px;
+	text-transform: none;
+	transition: bottom .2s ease-in-out;
+	color: white;
+	font-size: 8pt;
+	z-index: 1;
+
+	p {
+		margin: 0;
+	}
+
+	a {
+		text-transform: uppercase;
+		color: white;
+		text-decoration-line: underline;
+	}
+
+	@media (max-width: 1100px ) {
+		bottom: initial;
+		position: sticky;
+	}
+}
